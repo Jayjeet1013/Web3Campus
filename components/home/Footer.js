@@ -20,33 +20,33 @@ export default function Footer() {
             <Row>
               <Col className="flex">
                 <a
-                  href=""
+                  href="/"
                   rel="noreferrer"
-                  target="_blank"
+               
                   className="text-3xl mr-3 mt-2 text-gray-500"
                 >
                   <ion-icon name="logo-discord"></ion-icon>
                 </a>
                 <a
-                  href="https://www.instagram.com/sbrphotofilms/?utm_medium=copy_link"
+                  href="/"
                   rel="noreferrer"
-                  target="_blank"
+                 
                   className="text-3xl mr-3 mt-2 text-gray-500"
                 >
                   <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
                 <a
-                  href="https://wa.me/919798936441"
+                  href="/"
                   rel="noreferrer"
-                  target="_blank"
+                 
                   className="text-3xl mr-3 mt-2 text-gray-500"
                 >
                   <ion-icon name="logo-instagram"></ion-icon>
                 </a>
                 <a
-                  href="https://www.youtube.com/channel/UCwizlnwmhZgspMOQyUgKqww"
+                  href="/"
                   rel="noreferrer"
-                  target="_blank"
+                  
                   className="text-3xl mr-3 mt-2 text-gray-500"
                 >
                   <ion-icon name="logo-youtube"></ion-icon>
