@@ -1,6 +1,6 @@
 import { Container, Row, Col } from "react-bootstrap";
 import Link from "next/link";
-import Image from "next/image";
+
 
 export default function Footer() {
   const linkStyle = "p text-gray-400";
