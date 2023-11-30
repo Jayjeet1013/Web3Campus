@@ -11,8 +11,11 @@ export default function Footer() {
           <Col md={6} className="mb-5 sm:mb-0">
             <h3 className="h3 mb-3 text-white">Web3Campus</h3>
             <p className="p text-gray-400">
-       
-Unleashing the Power of Web3 Education Welcome to Web3Campus, your gateway to mastering the intricacies of Web3 technology! At Web3Campus, we are passionate about empowering individuals with the knowledge and skills needed to thrive in the decentralized future.
+              Unleashing the Power of Web3 Education Welcome to Web3Campus, your
+              gateway to mastering the intricacies of Web3 technology! At
+              Web3Campus, we are passionate about empowering individuals with
+              the knowledge and skills needed to thrive in the decentralized
+              future.
             </p>
             <Row>
               <Col className="flex">
@@ -22,7 +25,7 @@ Unleashing the Power of Web3 Education Welcome to Web3Campus, your gateway to ma
                   target="_blank"
                   className="text-3xl mr-3 mt-2 text-gray-500"
                 >
-                 <ion-icon name="logo-discord"></ion-icon>
+                  <ion-icon name="logo-discord"></ion-icon>
                 </a>
                 <a
                   href="https://www.instagram.com/sbrphotofilms/?utm_medium=copy_link"
@@ -30,7 +33,7 @@ Unleashing the Power of Web3 Education Welcome to Web3Campus, your gateway to ma
                   target="_blank"
                   className="text-3xl mr-3 mt-2 text-gray-500"
                 >
-                 <ion-icon name="logo-linkedin"></ion-icon>
+                  <ion-icon name="logo-linkedin"></ion-icon>
                 </a>
                 <a
                   href="https://wa.me/919798936441"
@@ -116,7 +119,7 @@ Unleashing the Power of Web3 Education Welcome to Web3Campus, your gateway to ma
           has.
         </p>
 
-        <p className="text-gray-400 w-full sm:w-[50%] text-left sm:text-right">⚡️ Open-source ⚡️ Free ⚡️ Peer-2-Peer</p>
+       
       </div>
     </div>
   );

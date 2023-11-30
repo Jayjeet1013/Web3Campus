@@ -1,7 +1,7 @@
 import Head from "next/head";
-import HomeAbout from "../components/home/About";
+
 import Contributers from "../components/home/Contributers";
-import Footer from "../components/home/Footer";
+
 import Header from "../components/home/Header";
 import JoinUs from "../components/home/JoinUs";
 import Projects from "../components/home/Projects";
@@ -20,7 +20,7 @@ export default function Home() {
       <Header/>
       <Projects/>
       <Technology/>
-      <HomeAbout/>
+  
       <Quotes/>
       <Contributers />
       <JoinUs />
