@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div>
       <Head>
-        <title>BlockShala | Best platform to learn WEB3</title>
+        <title>Web3Campus | Best platform to learn WEB3</title>
         <meta name="description" content="Best platform to learn WEB3 | LEARN.BUILD.EARN" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
