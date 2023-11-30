@@ -2,6 +2,7 @@ import Link from "next/link";
 import React from "react";
 import { useState } from "react";
 import { ethers } from 'ethers';
+import { Box, Button, Text } from "@chakra-ui/react";
 
 
 export default function Nav() {
@@ -42,7 +43,8 @@ export default function Nav() {
         <Link href='/'> <h3>
           ⚡️ Web3<b>Campus</b>
         </h3></Link>
-       
+        
+      
       </div>
       {/* links */}
       <div className=" items-center justify-around hidden sm:flex">
@@ -63,9 +65,11 @@ export default function Nav() {
           <button className="btn" onClick={connectWallet}>
             {connected ? "Disconnect Wallet" : "Connect Wallet"}
           </button>
-          <h3 className="pt-1">Wallet Address</h3>
-          <h4 className="wal-add">{walletAddress}</h4>
+          
+          <h4 className="wal-add pt-2">{walletAddress}</h4>
         </div>
+
+       
       </div>
     </nav>
   );

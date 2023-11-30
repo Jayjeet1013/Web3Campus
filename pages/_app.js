@@ -1,5 +1,5 @@
 import Head from "next/head";
-
+import { ChakraProvider } from '@chakra-ui/react'
 import "bootstrap/dist/css/bootstrap.css";
 import "../styles/globals.css";
 import Nav from "../components/home/Nav";
@@ -9,9 +9,10 @@ import Script from "next/script";
 function Layout({ children }) {
   return (
     <>
-      <Nav />
+      <ChakraProvider>  <Nav />
       {children}
-      <Footer />
+      <Footer /></ChakraProvider>
+    
     </>
   );
 }

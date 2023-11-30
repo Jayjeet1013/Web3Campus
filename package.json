@@ -9,10 +9,14 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@chakra-ui/react": "^2.8.2",
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
     "@tailwindcss/line-clamp": "^0.4.2",
     "bbcode-to-react": "^0.2.9",
     "bootstrap": "^5.2.2",
     "ethers": "^6.9.0",
+    "framer-motion": "^10.16.9",
     "mongoose": "^6.8.3",
     "next": "13.0.0",
     "react": "18.2.0",
