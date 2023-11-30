@@ -7,7 +7,7 @@ export default function JoinUs() {
       <div className="section">
         <h3 className="mb-5 h1">Ready to get into the WEB3.0 ?</h3>
        
-        <button className="btn">Join Us 🤝</button>
+        <button className="btn">Subscribe Us 🤝</button>
       </div>
     </div>
   );

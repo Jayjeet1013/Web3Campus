@@ -1,8 +1,9 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { contributorsData } from "../../data/contributors";
+import { FaTwitter } from "react-icons/fa";
 
-function ContributerCard({ pic, name, title }) {
+function ContributerCard({ pic, name, title,twitter,linkedin }) {
   return (
     <div>
       <img
@@ -14,17 +15,15 @@ function ContributerCard({ pic, name, title }) {
       <p className="p text-md opacity-70">{title}</p>
 
       <div>
-        <a href="" className="mr-2 text-2xl text-gray-600 hover:text-black">
+        <a href={twitter} className="mr-2 text-2xl text-gray-600 hover:text-black">
           <ion-icon name="logo-twitter" />
         </a>
 
-        <a href="" className="mr-2 text-2xl text-gray-600 hover:text-black">
+        <a href={linkedin} className="mr-2 text-2xl text-gray-600 hover:text-black">
           <ion-icon name="logo-linkedin" />
         </a>
 
-        <a href="" className="mr-2 text-2xl text-gray-600 hover:text-black">
-          <ion-icon name="logo-discord" />
-        </a>
+      
       </div>
     </div>
   );
@@ -47,6 +46,8 @@ export default function Contributers() {
                   pic={contributer.profile_url}
                   name={contributer.name}
                   title={contributer.title}
+                  linkedin={contributer.linkedin}
+                  twitter={contributer.twitter}
                 />
               </Col>
             );
