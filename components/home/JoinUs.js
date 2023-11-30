@@ -29,10 +29,10 @@ export default function JoinUs() {
         render: () => (
           <Box
             p={3}
-            bg="yellow"
+            bg="green"
             border="2px solid green"
             borderRadius="md"
-            color="Black"
+            color="white"
             fontWeight={600}
             textAlign="center"
           >
