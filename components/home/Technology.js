@@ -14,10 +14,10 @@ function Card(tech) {
 
   return (
     <div className="border-2 hover border-dark py-5 px-3">
-      <img className="mb-3 max-h-[50px]" src={logo_url} alt="logo" />
+  <Link href={link}>    <img className="mb-3 max-h-[50px]" src={logo_url} alt="logo" />
 
-      <h4 className="my-3 h4">{title}</h4>
-      <p className="p text-sm line-clamp-4">{sub_title}</p>
+<h4 className="my-3 h4">{title}</h4>
+<p className="p text-sm line-clamp-4">{sub_title}</p></Link>
     </div>
   );
 }
@@ -27,11 +27,8 @@ export default function Technology() {
     <div className="bg-[#fff]">
       <div className="section">
         <div className="text-center">
-          <h3 className="h3 mb-2">Learn technology which matters !</h3>
-          <p className="p mb-5">
-            Lorem Ipsum is simply dummy text of the printing and typesetting
-            industry.
-          </p>
+          <h3 className="h3 mb-2 pb-4">Learn technology which matters !</h3>
+          
         </div>
 
         <Row>

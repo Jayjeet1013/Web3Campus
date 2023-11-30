@@ -4,35 +4,35 @@ export const techData = [
     title: "JavaScript",
     sub_title:
       "JavaScript is the Programming Language for the Web. JavaScript can update and change both HTML and CSS. JavaScript can calculate, manipulate and validate data.",
-    link: "",
+    link: "https://www.javascript.com/",
   },
   {
     logo_url: "/logo/react.png",
     title: "React",
     sub_title:
       "React is a free and open-source front-end JavaScript library for building user interfaces based on UI components. It is maintained by Meta and a community of individual developers and companies.",
-    link: "",
+    link: "https://react.dev/",
   },
   {
     logo_url: "/logo/blockchain.png",
     title: "Blockchain",
     sub_title:
       "A blockchain is a decentralized, digital ledger that records transactions on multiple computers. It uses cryptography to secure and verify the integrity of the data, which means that the data recorded on a blockchain cannot be altered retroactively without the alteration being detected.",
-    link: "https://github.com/matter-labs/awesome-zero-knowledge-proofs",
+    link: "https://www.ibm.com/topics/blockchain",
   },
   {
     logo_url: "/logo/web3.jpeg",
     title: "WEB3",
     sub_title:
       "Web3 refers to the third generation of the World Wide Web, which aims to provide a decentralized and interoperable platform for applications and services.",
-    link: "https://github.com/matter-labs/awesome-zero-knowledge-proofs",
+    link: "https://www.simplilearn.com/tutorials/blockchain-tutorial/what-is-web-3-0",
   },
   {
     logo_url: "/logo/metamask.webp",
     title: "Crypto Wallet",
     sub_title:
       "A cryptocurrency wallet is a software program that stores the private and public keys needed to access and transact with cryptocurrencies. ",
-    link: "",
+    link: "https://www.coinbase.com/learn/crypto-basics/what-is-a-crypto-wallet",
   },
   {
     logo_url: "/logo/cryptography.png",
@@ -117,14 +117,14 @@ export const techData = [
     title: "Ethereum",
     sub_title:
       "Ethereum is a decentralized, open-source blockchain platform that enables the creation of smart contracts and decentralized applications (dApps). It was developed by Vitalik Buterin in 2013 and launched in 2015.",
-    link: "",
+    link: "https://ethereum.org/en/",
   },
   {
     logo_url: "/logo/solana.png",
     title: "Solana",
     sub_title:
       "Solana is a decentralized, high-performance blockchain platform that is designed to enable fast, secure, and scalable decentralized applications (dApps). It was developed by Solana Labs, a software company based in San Francisco, and was launched in 2020.",
-    link: "",
+    link: "https://solana.com/",
   },
 //   {
 //     logo_url: "/logo/avalanche.png",
@@ -180,7 +180,7 @@ export const techData = [
     title: "Polygon",
     sub_title:
       "Polygon (formerly known as Matic Network) is a decentralized, open-source blockchain platform that is designed to enable the creation of scalable and user-friendly decentralized applications (dApps). It was developed by Polygon Labs, a blockchain company based in Singapore, and was launched in 2017. ",
-    link: "",
+    link: "https://polygon.technology/",
   },
   {
     logo_url: "/logo/shardium.webp",

@@ -1,19 +1,22 @@
 import React from "react";
 import { Col, Row } from "react-bootstrap";
 import { techData } from "../../data/resources/tech";
+import Link from "next/link";
 
 function Card(tech) {
   const {title, sub_title, logo_url, link} = tech
 
   return (
     <div className="border-2 hover border-dark py-5 px-3 bg-white">
+      <Link href={link}>
       <img
         className="mb-3 max-h-[50px]"
         src={logo_url}
       />
-
+        
       <h4 className="my-3 h4">{title}</h4>
       <p className="p text-sm line-clamp-4">{sub_title}</p>
+      </Link>
     </div>
   );
 }

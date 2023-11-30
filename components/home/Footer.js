@@ -59,21 +59,23 @@ export default function Footer() {
             <h4 className="h4 text-white">Learn</h4>
             <div>
               <p className={linkStyle}>
-                <Link href="/">Cources</Link>
+                <Link href="/resources/projects">Courses</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/about-us">Tutorial</Link>
+                <Link href="/resources/projects">Tutorial</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/book-now">Video</Link>
+                <Link href="/">Earn</Link>
               </p>
               <p className={linkStyle}>
-                <Link href="/portfolio">Challanges</Link>
+                <Link href="/">Hackathons</Link>
               </p>
+            
+            
             </div>
           </Col>
 
-          <Col xs={4} md={2} className="text-left sm:text-right">
+          {/* <Col xs={4} md={2} className="text-left sm:text-right">
             <h4 className="h4 text-white">Build</h4>
             <div>
               <p className={linkStyle}>
@@ -85,11 +87,9 @@ export default function Footer() {
               <p className={linkStyle}>
                 <Link href="/book-now">Hackathons</Link>
               </p>
-              <p className={linkStyle}>
-                <Link href="/portfolio">Portfolio</Link>
-              </p>
+            
             </div>
-          </Col>
+          </Col> */}
 
           <Col xs={4} md={2} className="text-left sm:text-right text-white">
             <h4 className="h4">Resources</h4>

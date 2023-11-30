@@ -4,7 +4,7 @@ export const contributorsData = [
         title: "WEB3 Developer",
         profile_url: "/profiles/jayjeet.png",
         twitter: "",
-        linkedin: "",
+        linkedin: "https://www.linkedin.com/in/jayjeet-kumar-71a7751ba/",
         discord: "",
     },
     

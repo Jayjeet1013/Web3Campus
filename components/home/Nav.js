@@ -63,7 +63,7 @@ export default function Nav() {
           <button className="btn" onClick={connectWallet}>
             {connected ? "Disconnect Wallet" : "Connect Wallet"}
           </button>
-          <h3>Address</h3>
+          <h3 className="pt-1">Wallet Address</h3>
           <h4 className="wal-add">{walletAddress}</h4>
         </div>
       </div>

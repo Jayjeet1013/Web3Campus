@@ -74,14 +74,16 @@ ion-icon:hover{
   background-color: #000;
   color: #fff;
   padding: 10px 30px;
-  border-radius: 0px;
+  border-radius: 10px;
   border: 2px solid #000;
   font-size: 16px;
+
 }
 .btn:hover{
   transition: all 1s ease;
   border: 2px solid #000;
   box-shadow: 5px 5px gray 
+  
 }
 
 .hover:hover{
