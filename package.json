@@ -13,6 +13,7 @@
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
     "@tailwindcss/line-clamp": "^0.4.2",
+    "airtable": "^0.12.2",
     "bbcode-to-react": "^0.2.9",
     "bootstrap": "^5.2.2",
     "ethers": "^6.9.0",
