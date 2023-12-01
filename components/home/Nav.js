@@ -60,9 +60,9 @@ export default function Nav() {
           <div className="mx-[50px] text-xl">💰 Earn</div>
         </Link>
       </div>
-      <div className="main">
+      <div className="main hidden sm:flex">
         <div className="content">
-          <button className="btn" onClick={connectWallet}>
+          <button className="btn"  onClick={connectWallet}>
             {connected ? "Disconnect Wallet" : "Connect Wallet"}
           </button>
           
