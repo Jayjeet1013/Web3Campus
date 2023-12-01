@@ -72,7 +72,7 @@ function Learn() {
 
 export default function Header() {
   return (
-    <Box className="text-center">
+    <Box className="text-center" bg={'blue.100'}>
       
       
           {/* Learn Section */}
