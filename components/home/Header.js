@@ -7,7 +7,7 @@ import { Box, Center } from "@chakra-ui/react";
 function Earn() {
   return (
     <div className="w-full">
-      <div className="w-full p-5 border-b-2 border-dark">
+      <div className="w-full p-3 border-b-2 border-dark">
         <h1 className="h3 pb-3">
           Browse 
           <b>29,375</b> blockchain jobs in web3
@@ -18,7 +18,7 @@ function Earn() {
         </Link>
       </div>
 
-      <div className="w-full p-5">
+      <div className="w-full p-3">
         <h1 className="h3 pb-3">
           Solve blockchain
          related bounties
@@ -34,7 +34,7 @@ function Earn() {
 
 function Build() {
   return (
-    <div className="flex items-center justify-center w-full h-full p-5">
+    <div className="flex items-center justify-center w-full h-full p-3">
       <div>
         <h3 className="pb-3 h3 leading-[50px]">
           We have prepared a list of
@@ -55,7 +55,7 @@ function Learn() {
   return (
     <Box>
       
-      <div className="w-full p-5 border-b-2 border-dark">
+      <div className="w-full p-3 border-b-2 border-dark">
         <h1 className="h3 pb-3">
           Gain More Knowledge
         
@@ -66,7 +66,7 @@ function Learn() {
         </Link>
       </div>
 
-      <div className="w-full p-5">
+      <div className="w-full p-3">
         <h1 className="h3 pb-3">
           Learn about Metaverse, NFTs, Blockchain, Web3 and much more...
         </h1>
