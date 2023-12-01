@@ -8,7 +8,7 @@ function Earn() {
   return (
     <div className="w-full">
       <div className="w-full p-5 border-b-2 border-dark">
-        <h1 className="h3 mb-5">
+        <h1 className="h3 pb-3">
           Browse 
           <b>29,375</b> blockchain jobs in web3
            at <b>2,936 projects.</b>
@@ -19,7 +19,7 @@ function Earn() {
       </div>
 
       <div className="w-full p-5">
-        <h1 className="h3 mb-5">
+        <h1 className="h3 pb-3">
           Solve blockchain
          related bounties
          and earn <b>Rewards</b>
@@ -36,7 +36,7 @@ function Build() {
   return (
     <div className="flex items-center justify-center w-full h-full p-5">
       <div>
-        <h3 className="mb-5 h3 leading-[50px]">
+        <h3 className="pb-3 h3 leading-[50px]">
           We have prepared a list of
         <b> 100+ </b> Blockchain projects,
        that you can <b>Build </b> right now
@@ -56,7 +56,7 @@ function Learn() {
     <Box>
       
       <div className="w-full p-5 border-b-2 border-dark">
-        <h1 className="h3 mb-5">
+        <h1 className="h3 pb-3">
           Gain More Knowledge
         
           <b>By Reading</b> Whitepapers <br />
@@ -67,7 +67,7 @@ function Learn() {
       </div>
 
       <div className="w-full p-5">
-        <h1 className="h3 mb-5">
+        <h1 className="h3 pb-3">
           Learn about Metaverse, NFTs, Blockchain, Web3 and much more...
         </h1>
         <Link href="/resources/documentary">
